@@ -10,7 +10,7 @@ const dim = json ? plain : chalk.dim;
 module.exports = {
 	single: [
 		`#`,
-		`Country`,
+		`Country/Region`,
 		`Cases`,
 		`Cases ${dim(`(today)`)}`,
 		`Deaths`,
@@ -22,7 +22,7 @@ module.exports = {
 	],
 	colored: [
 		`#`,
-		`Country`,
+		`Country/Region`,
 		`Cases`,
 		`Cases ${dim(`(today)`)}`,
 		`${red(`Deaths`)}`,
